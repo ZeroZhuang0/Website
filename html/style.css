@@ -1,0 +1,100 @@
+*{
+	box-sizing: border-box;	
+}
+.header{
+	background-color:rgb(244,103,11);
+	overflow:hidden;
+	margin: 0 0 0 0;
+	border:solid;
+}
+.header a{
+	float:left;
+	display:block;
+	text-align:center;
+	padding:80px 90px 0px 90px;
+	font-size:32px;
+	color:black;
+	margin: 0 0 0 0;
+}
+a.right{
+	float:right;
+	display:block;
+	font-size:50px;
+	padding:80px 25px 0px 25px;
+}
+.header p{
+	float:left;
+	display:block;
+	padding:0px 40px 0px 40px;
+	margin: 0 0 0 0;
+}
+p.solid{
+	border-style:solid;
+	color: black;
+	margin: 0 0 0 0;
+	background-color:rgb(244,103,11);
+}
+.nav{
+	padding: 10px 100px 10px 100px;
+	border:solid;
+}
+.nav a{
+	font-size:48px;
+	color:white;
+	background-color:black;
+	margin-left:15px;
+}
+.nav input[type = search]{
+	border-style:solid;
+	padding:0px 500px 0px 0px;
+	margin-right:50px;
+	margin-left:50px;
+	font-size:32pt;
+}
+.nav input[type = submit]{
+	font-size:40px;
+}
+.leftbar,.rightbar{
+	float:left;
+	width:20%;
+	border:solid;
+	text-align:justify;
+}
+.body{
+	float:left;
+	width:60%;
+	border:solid;
+	text-align:justify;
+	padding:0px 0px 50px 0px;
+}
+ul li{
+	height:80px;
+	list-style-image:none;
+}
+#content{
+	padding:10px;
+	border:solid;
+	border-color:orange;
+	margin:40px 50px 0px 50px;
+	font-size:32px;
+
+}
+#comment{
+	padding:10px;
+	border:solid;
+	border-color:black;
+	margin:0px 50px 0px 50px;
+	font-size:24px;
+}
+h1{
+	text-align:center;
+	font-size:32px;
+}
+h2{
+	text-align:center;
+	font-size:32px;
+	font-weight:bold;
+}
+h3{
+	float:right;
+}
